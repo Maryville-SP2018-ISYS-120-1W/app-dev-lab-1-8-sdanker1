@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBOutlet weak var MyLabel: UILabel!
+    
+    @IBAction func MyButton(_ sender: Any) {
+        MyLabel.text = "This app rocks!"
+    }
 }
 
